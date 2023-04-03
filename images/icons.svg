@@ -78,5 +78,11 @@
 <path  d="M20.096 29.010l-16.667-4.088v-14.381l16.667 4.086v14.383z"></path>
 <path  d="M11.44 4.785l14.58 3.574-6.2 5.352-14.582-3.576 6.202-5.35zM11.164 3.867l-7.735 6.674 16.667 4.086 7.734-6.674-16.666-4.086zM21.034 28.2l6.795-5.865-6.796-1.667v7.533z"></path>
 </symbol>
+
+<symbol id="menu-hamburger" viewBox="0 0 47 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" d="M1.96 29.154h42.965M1.96 15.615h42.965M1.96 2.077h42.965"></path>
+</symbol>
+
+
 </defs>
 </svg>

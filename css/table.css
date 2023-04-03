@@ -1,0 +1,126 @@
+@media screen and (min-width: 768px) {
+    .container{
+        max-width: 768px;
+    }
+  .modal {
+      width: 408px;
+      padding: 52px 24px 24px 24px;
+      
+}
+.menu-togle{
+    display: none;
+}
+.site-nav{
+    display: flex;
+    margin-left: 120px;
+    
+}
+
+.auth-nav{
+        display: flex;
+            flex-direction: column;
+            gap: 12px;
+}
+.mail{
+    font-size: 12px;
+}
+.phone{
+    font-size: 12px;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-bottom: 0;
+    padding-top: 0;
+
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.section-hero{
+    background-image: linear-gradient(to right,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url("../images/Dark-bgtabletbg.jpg");
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .section-hero {
+        background-image:linear-gradient(to right,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url("../images/Dark-bgtabletbgx2.jpg");
+    }
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+}
+.list-info{
+    flex-basis: calc((100% - 24px) / 2);
+       margin-bottom: 0;
+}
+
+.post-title-text{
+    margin-bottom: 0;
+}
+
+.team{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 64px;
+}
+.customers-list{
+    column-gap: 24px;
+}
+.customers-link{
+    width: 168px;
+}
+
+.customers-container {
+    width: 582px;
+}
+
+.footer-items{
+flex-wrap: wrap;
+align-content: stretch;
+align-items: flex-start;
+flex-direction: row;
+gap: 24px;
+width: 582px;
+}
+.logo-footer{
+    text-align: unset;
+}
+.logo-text{
+    text-align: unset;
+}
+.footer-social-media{
+    text-align: unset;
+}
+.sub-footer{
+    margin: 0%;
+    padding-top: 48px;
+}
+.sub-footer-title{
+    text-align: left;
+}
+.sub-form-field-input{
+    width: 230px;
+    margin-bottom: 0%;
+}
+.sub-footer-form{
+    display: flex;
+    gap: 24px;
+}
+
+}

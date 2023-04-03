@@ -1,0 +1,131 @@
+@media screen and (min-width: 1200px) {
+    .container{
+        max-width: 1158px;
+    } 
+    .section-hero
+    {
+        max-width: 1440px;
+    }
+    .auth-nav{
+        display: flex;
+}
+.section-hero {
+    background-image: linear-gradient(to right,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url("../images/background-fone.jpg");
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .section-hero {
+        background-image:linear-gradient(to right,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url("../images/background-fonex2.jpg");
+    }
+}
+.auth-nav{
+    flex-direction: unset;
+    gap: 40px;
+}
+.mail {
+    font-size: 16px;
+}
+
+.phone {
+    font-size: 16px;
+}
+.section-list{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.list{
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+.list-background{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--second-bg-color);
+        margin-bottom: 8px;
+        width: 264px;
+        height: 112px;
+
+}
+.post-title {
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--main-text-color);
+    margin-bottom: 8px;
+    text-align: left;
+}
+.section-images{
+    display: flex
+
+}
+.post-title {
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--main-text-color);
+    margin-bottom: 8px;
+}
+
+.post-title-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--second-text-color);
+}
+
+
+.section-images {
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.images-title {
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--main-text-color);
+    margin-bottom: 72px;
+}
+
+.images {
+    display: flex;
+    gap: 24px;
+}
+.section-team{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.team{
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+.customers-container{
+    width: 100%;
+}
+.customers-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.customers-list{
+    flex-wrap: nowrap;
+    gap: 24px;
+   
+
+}
+ .sub-footer {
+     margin-left: auto;
+ }
+ .footer-items{
+    align-items: baseline;
+    width: 100%;
+
+ }
+ .footer-social-media{
+    margin-left: 96px;
+ }
+}
